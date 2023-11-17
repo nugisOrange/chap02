@@ -51,7 +51,7 @@ export function ColorSwitcher(value, map, source){
 // Create layers for different feature types
 const pointLayer = new ol.layer.Vector({
     source: new ol.source.Vector({
-        url: 'https://raw.githubusercontent.com/muhammad-faisal-ashshidiq/nugas-gis/main/data.json',
+        url: 'https://raw.githubusercontent.com/nugisOrange/data/main/data.json',
         format: new ol.format.GeoJSON(),
     }),
     style: new ol.style.Style({
@@ -65,7 +65,7 @@ const pointLayer = new ol.layer.Vector({
 
 const polylineLayer = new ol.layer.Vector({
     source: new ol.source.Vector({
-        url: 'https://raw.githubusercontent.com/muhammad-faisal-ashshidiq/nugas-gis/main/data.json',
+        url: 'https://raw.githubusercontent.com/nugisOrange/data/main/data.json',
         format: new ol.format.GeoJSON(),
     }),
     style: new ol.style.Style({
@@ -78,7 +78,7 @@ const polylineLayer = new ol.layer.Vector({
 
 const polygonLayer = new ol.layer.Vector({
     source: new ol.source.Vector({
-        url: 'https://raw.githubusercontent.com/muhammad-faisal-ashshidiq/nugas-gis/main/data.json',
+        url: 'https://raw.githubusercontent.com/nugisOrange/data/main/data.json',
         format: new ol.format.GeoJSON(),
     }),
     style: new ol.style.Style({
