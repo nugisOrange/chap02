@@ -3098,11 +3098,12 @@
       "type": "Feature",
       "properties": {
         "tempat": "",
-        "titik": "basreng mah alya"
+        "titik": "sekola"
       },
       "geometry": {
         "coordinates": [
-          107.6921303071577, -6.908623645337514
+          107.59900575888406,
+          -6.919559721529168
         ],
         "type": "Point"
       },
