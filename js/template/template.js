@@ -1,4 +1,4 @@
-export let URLGeoJson = "https://raw.githubusercontent.com/muhammad-faisal-ashshidiq/nugas-gis/main/data.json";
+export let URLGeoJson = "https://raw.githubusercontent.com/nugisOrange/data/main/data.json";
 export let tableTag="tr";
 export let tableRowClass="content is-small";
 export let tableTemplate=`
